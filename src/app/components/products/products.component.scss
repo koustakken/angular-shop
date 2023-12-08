@@ -1,0 +1,15 @@
+.mdc-card {
+	max-width: 400px;
+	background-color: inherit;
+	& p {
+		padding: 2rem .5rem;
+	}
+
+	& button {
+		color: #fff;
+		background-color: #3f51b5;
+		&:first-child {
+			margin-right: .5rem;
+		}
+	}
+}
