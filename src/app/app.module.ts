@@ -13,6 +13,11 @@ import { ProductDetailsComponent } from './components/product-details/product-de
 import { HomeComponent } from './components/home/home.component';
 import { DialogComponent } from './components/dialog/dialog.component';
 
+import { MatToolbarModule } from '@angular/material/toolbar';
+import { MatIconModule } from '@angular/material/icon';
+import { MatCardModule } from '@angular/material/card';
+import { MatButtonModule } from '@angular/material/button';
+
 @NgModule({
 	declarations: [
 		AppComponent,
@@ -27,7 +32,11 @@ import { DialogComponent } from './components/dialog/dialog.component';
 	imports: [
 		BrowserModule,
 		AppRoutingModule,
-		BrowserAnimationsModule
+		BrowserAnimationsModule,
+		MatToolbarModule,
+		MatIconModule,
+		MatCardModule,
+		MatButtonModule
 	],
 	providers: [],
 	bootstrap: [AppComponent]

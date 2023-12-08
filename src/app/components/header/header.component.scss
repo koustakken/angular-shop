@@ -1,0 +1,21 @@
+.mat-toolbar-row {
+	justify-content: space-between;
+
+	& > span {
+		cursor: pointer;
+		user-select: none;
+	}
+}
+
+.header-icons {
+	display: flex;
+	gap: 1rem;
+}
+
+.mat-icon{
+	cursor: pointer;
+	
+	&:hover {
+		opacity: 0.8;
+	}
+}
